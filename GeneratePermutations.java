@@ -2,6 +2,8 @@ import java.util.*;
 
 public class GeneratePermutations {
 
+    // Time complexity O(n * n!)
+
     public static List<List<Integer>> generatePermutations(List<Integer> a){
         List<List<Integer>> results = new ArrayList<>();
         permutaionRecurrence(a, 0, results);
