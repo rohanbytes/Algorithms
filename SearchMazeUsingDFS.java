@@ -1,6 +1,9 @@
 import java.util.*;
 
 class Cell{
+
+    // Time Complexity: O(V + E)
+
     public int row;
     public int column;
 
