@@ -9,6 +9,9 @@ class Node<T>{
 
 public class BinaryTreeTraversals {
 
+    // Time Complexity: O(n)
+    // Space Complexity: O(h) where h is the height of the tree. h will be at least lg(n) and max n
+
     public static void preOrderTraversal(Node<Integer> root){
         if(root == null){
             return;
